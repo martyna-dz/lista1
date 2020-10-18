@@ -9,6 +9,7 @@ public class Kalkulator {
     String liczba1 = scanner.nextLine();
     double liczba1_double;	
     try {
+    	nananananananananan
       liczba1_double = Double.parseDouble(liczba1);
     }
     catch (NumberFormatException ex) {
