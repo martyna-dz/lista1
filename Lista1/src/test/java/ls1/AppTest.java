@@ -17,7 +17,7 @@ public class AppTest {
 		Mnozenie m = new Mnozenie();
 		Assert.assertEquals(50, m.wynik(liczba1, liczba2), 0);
 		Odejmowanie o = new Odejmowanie();
-		Assert.assertEquals(5, o.wynik(liczba1, liczba2), 0);	
+		Assert.assertEquals(5,  o.wynik(liczba1, liczba2), 0);	
 		Dzielenie dz = new Dzielenie();
 		Assert.assertEquals(2, dz.wynik(liczba1, liczba2), 0);
 	}
