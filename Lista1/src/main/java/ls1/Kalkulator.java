@@ -10,7 +10,6 @@ public class Kalkulator {
     double liczba1_double;	
     try {
     	nananananananananan
-    	nanannanan
       liczba1_double = Double.parseDouble(liczba1);
     }
     catch (NumberFormatException ex) {
