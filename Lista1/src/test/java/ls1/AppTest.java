@@ -13,7 +13,7 @@ public class AppTest {
 	public void testDodawanie()
 	{
 		Dodawanie d = new Dodawanie();
-		Assert.assertEquals(15, d.wynik(liczba1, liczba2), 0);		
+		Assert.assertEquals(15, d.wynik (liczba1, liczba2), 0);		
 		Mnozenie m = new Mnozenie();
 		Assert.assertEquals(50, m.wynik(liczba1, liczba2), 0);
 		Odejmowanie o = new Odejmowanie();
