@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class AppTest {
 
-	double liczba1 = 10;
+  double liczba1 = 10;
 	double liczba2 = 5;
 	@Test
 	public void testDodawanie()
@@ -21,5 +21,4 @@ public class AppTest {
 		Dzielenie dz = new Dzielenie();
 		Assert.assertEquals(2, dz.wynik(liczba1, liczba2), 0);
 	}
-
 }
