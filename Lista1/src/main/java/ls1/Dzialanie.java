@@ -9,7 +9,7 @@ abstract class Dzialanie {
 }
 
 class Dodawanie extends Dzialanie {
-	@Override
+  @Override
   public double wynik(double jeden, double dwa) {
     wynik = jeden + dwa;
     return wynik;
@@ -21,7 +21,7 @@ class Odejmowanie extends Dzialanie {
   public double wynik(double jeden, double dwa) {
     wynik = jeden - dwa;
     return wynik; 
-    }
+  }
 }
 
 class Mnozenie extends Dzialanie {

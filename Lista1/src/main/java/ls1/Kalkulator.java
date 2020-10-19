@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class Kalkulator {
 
-  public static void main(String[] args){
+  public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     String liczba1 = scanner.nextLine();
-    double liczba1_double;	
+    double liczba1_double;
     try {
-    	nananananananananan
       liczba1_double = Double.parseDouble(liczba1);
     }
     catch (NumberFormatException ex) {
