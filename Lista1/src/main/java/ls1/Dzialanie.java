@@ -8,8 +8,9 @@ abstract class Dzialanie {
 
 }
 
+// komentarz
 class Dodawanie extends Dzialanie {
-  @Override
+  @Override   
   public double wynik(double jeden, double dwa) {
     wynik = jeden + dwa;
     return wynik;
