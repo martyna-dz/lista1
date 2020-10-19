@@ -50,7 +50,7 @@ public class Kalkulator {
       default: {
         System.out.println("Niepoprawny symbol");
         break;
-    }
+      }
     }
     
   }
